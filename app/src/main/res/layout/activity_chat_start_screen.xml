@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashwani.incredibleindia.ChatStartScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chatTag"
+        android:text="Nation talk"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:textStyle="bold"
+        android:textSize="50dp"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/chatScreenCard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="12dp"
+        card_view:cardCornerRadius="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/chatTag"
+        app:cardBackgroundColor="#54e239"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="can anybody tell me which resturant is best for italian food."
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/chatScreenCard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="12dp"
+        card_view:cardCornerRadius="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/chatScreenCard1"
+        android:layout_marginLeft="20dp"
+        app:cardBackgroundColor="#ffffff"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tell me the location."
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/chatScreenCard3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="12dp"
+        card_view:cardCornerRadius="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="#54e239"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/chatScreenCard2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anywhere in Noida."
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/chatScreenCard4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="12dp"
+        card_view:cardCornerRadius="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/chatScreenCard3"
+        android:layout_marginLeft="20dp"
+        app:cardBackgroundColor="#ffffff"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tossin Pizza"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/chatScreenCard5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="12dp"
+        card_view:cardCornerRadius="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/chatScreenCard4"
+        android:layout_marginLeft="20dp"
+        app:cardBackgroundColor="#ffffff"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jamie's Italian"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/chatScreenCard6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="12dp"
+        card_view:cardCornerRadius="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/chatScreenCard5"
+        android:layout_marginLeft="20dp"
+        app:cardBackgroundColor="#ffffff"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jamie's Pizzeria by Jamie Oliver"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

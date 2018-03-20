@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Incredible Rajasthan</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="logout">Logout</string>
+    <string name="chat">Chat</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tourist_place">TouristPlace</string>
+    <string name="title_activity_tourist_place_welcome_screen">TouristPlaceWelcomeScreen</string>
+    <string name="wifi_changing_network">Requesting connection to network…</string>
+    <string name="title_activity_next_destination">NextDestination</string>
+    <string name="title_activity_current_destination">CurrentDestination</string>
+    <string name="title_activity_previously_visited">PreviouslyVisited</string>
+
+    <string name="title_slide1">See the monuments</string>
+    <string name="desc_slide1">Enjoy the history without any intervention.</string>
+    <string name="title_slide2">Reach your Destination</string>
+    <string name="desc_slide2">Enjoy easy rides with correct fares.</string>
+    <string name="title_slide3">Stay at the best place</string>
+    <string name="desc_slide3">Choose between the better places to stay at.</string>
+    <string name="title_slide4">Choose what to eat</string>
+    <string name="desc_slide4">Eat the food of your taste and your will. </string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="facebook">Continue With Facebook</string>
+    <string name="google">Continue With Google</string>
+    <string name="simsimi_api">e0610bd7-b4c0-4e32-90d2-af0b4d9242ab</string>
+
+    <string-array name="place_array">
+        <item>Sector 33, Noida, Uttar Pradesh</item>
+        <item>Sector 34, Noida, Uttar Pradesh</item>
+        <item>Sector 35, Noida, Uttar Pradesh</item>
+        <item>Sector 51, Noida, Uttar Pradesh</item>
+        <item>Sector 23, Noida, Uttar Pradesh</item>
+        <item>Sector 24, Noida, Uttar Pradesh</item>
+        <item>Sector 38, Noida, Uttar Pradesh</item>
+        <item>Sector 63, Noida, Uttar Pradesh</item>
+        <item>Sector 50, Noida, Uttar Pradesh</item>
+        <item> G.L Bajaj Institute of Technology and Management Greater Noida, Uttar Pradesh</item>
+    </string-array>
+
+    <string-array name="auto_complete">
+        <item>Chhalera, Chhalera Bangar, Sector 44, Noida, Uttar Pradesh 201303, India</item>
+        <item>Delhi Public School, Sector 30, Noida, Uttar Pradesh 201303, India</item>
+        <item>Rajiv Chowk, Block B, Connaught Place, New Delhi, 110001, India</item>
+        <item>Taj Mahal, Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh, 282001, India</item>
+        <item>Gurdwara Bangla Sahib, Sansad Marg Area, Pandit Pant Marg Area, New Delhi, 110001, India</item>
+    </string-array>
+    <string name="title_activity_resturant">Resturant</string>
+    <string name="title_activity_chat_box">ChatBox</string>
+    <string name="title_activity_check_ride">CheckRide</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select_guide">SelectGuide</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

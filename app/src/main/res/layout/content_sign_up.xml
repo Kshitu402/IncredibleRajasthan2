@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_gradient"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ashwani.incredibleindia.SignUp"
+    tools:showIn="@layout/activity_sign_up">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/usernameWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:textColorHint="#c0c0c0"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingBottom="2dp">
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_shape"
+                    android:hint="Username"
+                    android:padding="10dp"
+                    android:inputType="textEmailAddress" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/passwordWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:textColorHint="#c0c0c0"
+                android:paddingBottom="2dp">
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_shape"
+                    android:hint="Password"
+                    android:padding="10dp"
+                    android:inputType="textPassword" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="45dp"
+                android:id="@+id/country"
+                app:ms_hint="Select Country"
+                app:ms_hintColor="#c0c0c0"
+                app:ms_enableErrorLabel="false"
+                app:ms_thickness="0dp"
+                app:ms_arrowColor="@color/colorPrimaryDark"
+                app:ms_floatingLabelColor="#c0c0c0"
+                app:ms_floatingLabelText="Country"/>
+
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="35dp"
+                android:id="@+id/language"
+                app:ms_hint="Select Language"
+                app:ms_hintColor="#c0c0c0"
+                app:ms_enableErrorLabel="false"
+                app:ms_thickness="0dp"
+                app:ms_arrowColor="@color/colorPrimaryDark"
+                app:ms_floatingLabelColor="#c0c0c0"
+                app:ms_multiline="false"
+                app:ms_floatingLabelText="Language"
+                />
+
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="35dp"
+                android:id="@+id/gender"
+                app:ms_hint="Select Gender"
+                app:ms_hintColor="#c0c0c0"
+                app:ms_enableErrorLabel="false"
+                app:ms_thickness="0dp"
+                app:ms_arrowColor="@color/colorPrimaryDark"
+                app:ms_floatingLabelColor="#c0c0c0"
+                app:ms_multiline="false"
+                app:ms_floatingLabelText="Language"
+                />
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:textColor="#fff"
+                android:background="@drawable/background_signup"
+                android:text="Sign up"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/btnGoogleSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/google"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:background="#e43214"
+                android:drawableLeft="@drawable/g1"/>
+
+            <Button
+                android:id="@+id/btnFacebookSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/facebook"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:background="#3b5998"
+                android:drawableLeft="@drawable/f1"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

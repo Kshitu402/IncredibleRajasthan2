@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashwani.incredibleindia.TouristPlaceWelcomeScreen">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+
+        TextureView, etc. -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/touristPlaceWelcomePlaceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@color/black"
+            android:textColor="#ffffff"
+            android:elevation="3dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="Welcome to Taj Mahal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/touristPlaceWelcomePlaceName"
+            android:layout_gravity="center"
+            android:src="@drawable/tourist_taj"
+            android:id="@+id/touristPlaceWelcomeImage"/>
+
+    </RelativeLayout>
+</FrameLayout>

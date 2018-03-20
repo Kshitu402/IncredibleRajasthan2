@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ashwani.incredibleindia.TouristPlace"
+    tools:showIn="@layout/activity_tourist_place">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnStartTour"
+        android:layout_marginBottom="5dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/touristPlaceImage"
+                android:elevation="3dp"
+                android:src="@drawable/tourist_taj"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#55c2bbbb"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:elevation="5dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:id="@+id/touristPlaceLocationText"
+                        android:textStyle="bold"
+                        android:text="Location: "
+                        android:paddingLeft="20dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="#414545"
+                        android:layout_marginTop="5dp"
+                        android:text="Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001"
+                        android:id="@+id/touristPlaceImageLocation"
+                        android:paddingLeft="30dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="8dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:id="@+id/touristAboutText"
+                        android:textStyle="bold"
+                        android:text="About: "
+                        android:paddingLeft="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="#414545"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/touristPlaceImageDetail"
+                        android:text="The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned 1628–1658), to house the tomb of his favourite wife, Mumtaz Mahal."
+                        android:paddingLeft="30dp"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/touristPlaceKnowMore"
+                            android:text="Know More>"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_alignParentRight="true"
+                            android:textStyle="italic"
+                            android:clickable="true"
+                            android:layout_marginRight="20dp"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnStartTour"
+        android:text="Start a tour"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@color/black"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
